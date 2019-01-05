@@ -21,7 +21,7 @@ Just two components here, not-found and navigation bar.
 	
 
 ### Prerequisites
-Make sure you have Node.js installed (at least 6.10.0) and that the [backend](https://github.com/alessandrov/node-express-rest-service) 
+Make sure you have Node.js installed (at least 6.10.0) and that the [backend](https://github.com/alessandrov/ngrx-poc-nodejs-backend) 
 is up and running.
 
 
