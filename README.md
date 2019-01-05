@@ -56,14 +56,11 @@ a dist folder is built with AOT compilation and the application is available at 
 
 ### Login 
 
-You'll be able to login with one of the following two sets of credentials:
+You'll be able to login with one of the following credentials:
 
 ```
-username: user_admin_1
+username: user1
 password: password1
-
-username: user_admin_2
-password: password2
 ```
 
 Postman collection included.
