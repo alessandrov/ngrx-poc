@@ -1,0 +1,60 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "project": {
+    "name": "nrgx-basic-app"
+  },
+  "apps": [
+    {
+      "root": "client",
+      "outDir": "dist/public",
+      "assets": [
+        "assets",
+        "assets/favicon.ico"
+      ],
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "test": "",
+      "tsconfig": "tsconfig.app.json",
+      "testTsconfig": "tsconfig.spec.json",
+      "prefix": "app",
+      "styles": [
+        "../node_modules/bootstrap/dist/css/bootstrap.css",
+        "../node_modules/font-awesome/css/font-awesome.min.css",
+        "styles.scss",
+        "../node_modules/ngx-toastr/toastr.css"
+      ],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.slim.min.js",
+        "../node_modules/tether/dist/js/tether.min.js",
+        "../node_modules/popper.js/dist/umd/popper.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.js"
+      ],
+      "environmentSource": "environments/environment.ts",
+      "environments": {
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      }
+    }
+  ],
+  "lint": [
+    {
+      "project": "client/tsconfig.app.json"
+    },
+    {
+      "project": "client/tsconfig.spec.json"
+    }
+  ],
+  "test": {
+  },
+  "defaults": {
+    "styleExt": "scss",
+    "component": {}
+  },
+  "scripts": [
+    "../node_modules/jquery/dist/jquery.slim.min.js",
+    "../node_modules/tether/dist/js/tether.min.js",
+    "../node_modules/popper.js/dist/umd/popper.js",
+    "../node_modules/bootstrap/dist/js/bootstrap.js"
+  ]
+}
